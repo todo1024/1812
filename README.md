@@ -1,2 +1,627 @@
 # 1812
 Java就业班 - 框架，分布式，微服务【马士兵教育】| 完结
+### 微:NoBug1024 
+
+
+课程介绍：
+
+〖课程目录〗:
+
+
+- ├──04 MyBatis（四）  
+- |   ├──介绍MyBatis的二级缓存.mp4  156.00M
+- |   ├──介绍MyBatis的一级缓存.mp4  65.96M
+- |   ├──介绍第三方缓存框架.mp4  100.82M
+- |   ├──介绍缓存.mp4  14.10M
+- |   └──实现延迟加载.mp4  199.63M
+- ├──05 MyBatis版本三  
+- |   ├──MyBatis_基于接口代理模式开发.mp4  54.35M
+- |   ├──MyBatis简介.mp4  27.29M
+- |   ├──MyBatis其他配置.mp4  41.88M
+- |   ├──MyBatis日志配置.mp4  45.40M
+- |   ├──MyBatis项目搭建.mp4  60.36M
+- |   ├──MyBatis引入外部属性配置文件.mp4  31.87M
+- |   ├──MyBatis运行测试.mp4  38.37M
+- |   ├──SqlSession三种参数传递.mp4  56.85M
+- |   ├──SqlSession三种查询方法.mp4  56.05M
+- |   └──SqlSession实现CURD.mp4  48.65M
+- ├──06 MyBatis版本三（一）  
+- |   ├──MyBatis_代理模式简析(了解).mp4  15.34M
+- |   ├──MyBatis_接口代理CURD.mp4  31.43M
+- |   ├──MyBatis_接口代理下的参数问题.mp4  63.70M
+- |   ├──MyBatis_模糊查询.mp4  7.31M
+- |   ├──MyBatis_主键自增回填.mp4  34.82M
+- |   ├──动态SQL之BIND.mp4  14.47M
+- |   ├──动态SQL之if.mp4  45.91M
+- |   ├──动态SQL之SET.mp4  27.19M
+- |   ├──动态SQL之TRIM.mp4  27.16M
+- |   └──动态SQL之where和when.mp4  36.40M
+- ├──07 MyBatis版本三（二）  
+- |   ├──MyBatis_使用注解完成CURD.mp4  31.06M
+- |   ├──动态SQL之FOREACH.mp4  32.66M
+- |   ├──动态SQL之SQL.mp4  24.86M
+- |   ├──多表查询_多对多.mp4  76.81M
+- |   ├──多表查询_级联积极加载.mp4  40.28M
+- |   ├──多表查询_级联延迟加载.mp4  32.36M
+- |   ├──多表查询_数据准备.mp4  23.61M
+- |   ├──多表查询_一对多.mp4  32.22M
+- |   ├──多表查询_一对一.mp4  39.83M
+- |   └──手动处理映射关系.mp4  44.61M
+- ├──08 MyBatis版本三（三）  
+- |   ├──MyBatis_二级缓存.mp4  38.95M
+- |   ├──MyBatis_逆向工程(了解).mp4  32.96M
+- |   ├──MyBatis_配置文件编译问题.mp4  21.56M
+- |   ├──Mybatis_三方缓存(了解).mp4  30.83M
+- |   └──MyBatis_一级缓存.mp4  42.18M
+- ├──09 Spring（一）  
+- |   ├──Spring IOC创建对象方式三.mp4  118.43M
+- |   ├──SpringIOC创建对象方式二.mp4  69.95M
+- |   ├──SpringIOC创建对象方式一.mp4  30.74M
+- |   ├──SpringIOC简介和环境搭建.mp4  155.97M
+- |   ├──介绍Bean标签.mp4  139.87M
+- |   ├──介绍IOC容器.mp4  74.00M
+- |   └──介绍Spring框架.mp4  29.41M
+- ├──10 Spring（二）  
+- |   ├──JDK动态代理.mp4  86.28M
+- |   ├──SpringDI注入方式二.mp4  183.46M
+- |   ├──SpringDI注入方式三.mp4  104.06M
+- |   ├──SpringDI注入方式一.mp4  113.12M
+- |   ├──介绍AOP.mp4  70.77M
+- |   ├──介绍代理模式.mp4  54.03M
+- |   └──静态代理实现AOP.mp4  93.96M
+- ├──11 Spring（三）  
+- |   ├──CGLIB动态代理实现AOP.mp4  60.51M
+- |   ├──Spring整合MyBatis.mp4  202.55M
+- |   ├──基于XML配置方式声明切面.mp4  190.54M
+- |   ├──基于注解方式声明切面.mp4  110.47M
+- |   ├──介绍常用的注解.mp4  13.65M
+- |   ├──介绍事务.mp4  45.64M
+- |   └──声明式事务.mp4  138.88M
+- ├──12 spring（四）马老师版本  
+- |   ├──Spring_bean标签属性简介.mp4  35.03M
+- |   ├──Spring_IOC代码测试.mp4  48.85M
+- |   ├──Spring_IOC概念引入.mp4  37.46M
+- |   ├──Spring_IOC和DI概念解释.mp4  21.49M
+- |   ├──Spring_IOC实现原理.mp4  32.05M
+- |   ├──Spring_XML实现DI1.mp4  45.61M
+- |   ├──Spring_XML实现DI2.mp4  22.51M
+- |   ├──Spring_XML实现DI3.mp4  42.31M
+- |   ├──Spring_XML实现DI4.mp4  42.82M
+- |   └──Spring_框架介绍.mp4  29.87M
+- ├──13 spring（五）  
+- |   ├──Spring_bean的生命周期.mp4  52.07M
+- |   ├──Spring_bean工厂.mp4  27.66M
+- |   ├──Spring_DI注解方式实现.mp4  35.70M
+- |   ├──Spring_DI注解方式实现2.mp4  21.05M
+- |   ├──Spring_DI注解方式实现3.mp4  29.12M
+- |   ├──Spring_IOC注解方式实现(1).mp4  33.05M
+- |   ├──Spring_IOC注解方式实现.mp4  42.49M
+- |   ├──Spring_读取属性配置文件.mp4  58.52M
+- |   ├──Spring_自动装配.mp4  30.03M
+- |   └──配置类方式实现IOC和DI.mp4  22.05M
+- ├──14 spring（六）  
+- |   ├──Spring_AOP概念引入.mp4  34.89M
+- |   ├──Spring_AOP术语解析.mp4  36.96M
+- |   ├──Spring_AOP项目准备.mp4  37.02M
+- |   ├──Spring_AOP注解实现1.mp4  32.86M
+- |   ├──Spring_AOP注解实现2.mp4  73.03M
+- |   ├──Spring_AOP注解实现3.mp4  32.75M
+- |   ├──Spring_CGLIB动态代理.mp4  47.48M
+- |   ├──Spring_JDK动态代理.mp4  83.29M
+- |   ├──Spring_代理模式概念和静态代理.mp4  40.75M
+- |   └──Spring_配置类方式实现IOC和DI2.mp4  17.42M
+- ├──15 spring（七）  
+- |   ├──Spring_AOPXML实现.mp4  34.52M
+- |   ├──Spring_AOP注解实现4.mp4  22.90M
+- |   ├──Spring_JdbcTemplate查询操作.mp4  40.98M
+- |   ├──Spring_JdbcTemplate批处理.mp4  44.42M
+- |   ├──Spring_JdbcTemplate项目搭建.mp4  33.50M
+- |   ├──Spring_JdbcTemplate增删改.mp4  36.72M
+- |   ├──Spring_事务的传播行为.mp4  33.92M
+- |   ├──Spring_事务环境搭建.mp4  50.22M
+- |   ├──Spring_事务回顾.mp4  42.33M
+- |   └──Spring_注解方式声明式事务.mp4  43.04M
+- ├──16 spring（八）  
+- |   ├──Spring_junit4和5的支持.mp4  40.36M
+- |   ├──Spring_XML方式声明事务.mp4  28.00M
+- |   ├──Spring_零XML声明事务.mp4  56.15M
+- |   ├──Spring_日志的使用.mp4  32.82M
+- |   └──Spring_事务的其他配置参数.mp4  29.98M
+- ├──17 SpringMVC（一）  
+- |   ├──SpringMVC返回值类型.mp4  90.64M
+- |   ├──SpringMVC映射请求.mp4  157.59M
+- |   ├──非注解方式开发程序.mp4  113.89M
+- |   ├──复习.mp4  24.00M
+- |   ├──环境搭建 方式二.mp4  78.61M
+- |   ├──环境搭建 方式一.mp4  198.69M
+- |   ├──介绍SpringMVC框架.mp4  50.82M
+- |   ├──介绍SpringMVC执行流程.mp4  150.18M
+- |   ├──配置Tomcat.mp4  42.74M
+- |   └──优化入门程序.mp4  109.88M
+- ├──18 SpringMVC（二）  
+- |   ├──SpringMVC参数绑定1.mp4  92.58M
+- |   ├──SpringMVC参数绑定2.mp4  64.64M
+- |   ├──SpringMVC参数绑定3.mp4  65.53M
+- |   ├──SpringMVC参数绑定4.mp4  81.07M
+- |   ├──SpringMVC参数绑定5.mp4  76.13M
+- |   └──SpringMVC参数绑定6.mp4  113.18M
+- ├──19 SpringMVC（三）  
+- |   ├──SpringMVC使用ajax1.mp4  102.94M
+- |   ├──SpringMVC使用ajax2.mp4  78.00M
+- |   ├──SpringMVC使用拦截器.mp4  97.33M
+- |   ├──SpringMVC使用文件上传.mp4  114.21M
+- |   ├──SpringMVC使用文件下载.mp4  102.02M
+- |   └──SSM整合.mp4  360.95M
+- ├──20 SpringMVC（四）马老师版本  
+- |   ├──SpringMVC_@PathVariable.mp4  166.79M
+- |   ├──SpringMVC_创建并运行war项目.mp4  232.51M
+- |   ├──springMVC_概念引入.mp4  41.58M
+- |   ├──SpringMVC_静态资源放行.mp4  239.35M
+- |   ├──SpringMVC_控制请求参数和请求头.mp4  121.87M
+- |   ├──SpringMVC_控制请求方式.mp4  64.59M
+- |   ├──SpringMVC_框架搭建1.mp4  180.64M
+- |   ├──SpringMVC_框架搭建2.mp4  76.99M
+- |   ├──SpringMVC_框架搭建3.mp4  172.23M
+- |   └──SpringMVC_执行流程和三大组件.mp4  313.93M
+- ├──21 SpringMVC（五）  
+- |   ├──SpringMVC_RESTFUL风格.mp4  280.26M
+- |   ├──SpringMVC_参数注入A.mp4  208.48M
+- |   ├──SpringMVC_常见注解.mp4  182.34M
+- |   ├──SpringMVC_请求参数乱码问题.mp4  20.62M
+- |   ├──SpringMVC_响应void.mp4  72.40M
+- |   ├──SpringMVC_注入Date类型参数.mp4  200.06M
+- |   ├──SpringMVC_注入List类型参数.mp4  156.12M
+- |   ├──SpringMVC_注入List类型参数2.mp4  14.40M
+- |   ├──SpringMVC_注入Map类型参数.mp4  28.12M
+- |   └──SpringMVC_注入POJO类型参数.mp4  212.56M
+- ├──22 SpringMVC（六）  
+- |   ├──SpringMVC_forward关键字.mp4  34.42M
+- |   ├──SpringMVC_ModelAndView.mp4  44.93M
+- |   ├──SpringMVC_redirect关键字2.mp4  9.33M
+- |   ├──SpringMVC_SSM整合A.mp4  103.17M
+- |   ├──SpringMVC_SSM整合B.mp4  58.43M
+- |   ├──SpringMVC_SSM整合C.mp4  211.38M
+- |   ├──SpringMVC_SSM整合D.mp4  149.33M
+- |   ├──SpringMVC_View视图.mp4  50.75M
+- |   ├──SpringMVC_请求转发和响应重定向.mp4  61.35M
+- |   └──SpringMVC_响应JSON.mp4  364.22M
+- ├──23 SpringMVC（七）  
+- |   ├──SpringMVC_SSM整合F.mp4  24.23M
+- |   ├──SpringMVC_文件上传A.mp4  130.81M
+- |   ├──SpringMVC_文件上传B.mp4  205.05M
+- |   ├──SpringMVC_文件上传C.mp4  124.11M
+- |   ├──SpringMVC_文件上传D.mp4  308.98M
+- |   ├──SpringMVC_文件上传E.mp4  238.37M
+- |   ├──SpringMVC_作用域传递数据A.mp4  264.07M
+- |   ├──SpringMVC_作用域传递数据B.mp4  123.70M
+- |   └──SpringMVC_作用域传递数据C.mp4  85.32M
+- ├──24 SpringMVC（八）  
+- |   ├──SpringMVC_拦截器方法解释.mp4  302.26M
+- |   ├──SpringMVC_拦截器引入.mp4  275.23M
+- |   ├──SpringMVC_拦截器执行顺序.mp4  51.12M
+- |   ├──SpringMVC_文件上传F.mp4  169.50M
+- |   ├──SpringMVC_文件上传G.mp4  347.60M
+- |   ├──SpringMVC_文件上传H.mp4  316.01M
+- |   ├──SpringMVC_文件下载A.mp4  229.74M
+- |   ├──SpringMVC_文件下载B.mp4  135.16M
+- |   ├──SpringMVC_异常处理方式1.mp4  86.77M
+- |   └──SpringMVC_异常处理引入.mp4  22.12M
+- ├──25 SpringMVC（九）  
+- |   ├──SpringMVC_其他注解.mp4  184.52M
+- |   ├──SpringMVC_其他注解2.mp4  127.94M
+- |   ├──SpringMVC_其他注解3.mp4  54.37M
+- |   ├──SpringMVC_异常处理方式2.mp4  51.11M
+- |   ├──SpringMVC_异常处理方式3A.mp4  96.02M
+- |   ├──SpringMVC_异常处理方式3B.mp4  9.57M
+- |   └──SpringMVC_异常处理方式4.mp4  45.40M
+- ├──26 SpringBoot  
+- |   ├──SpringBoot整合Druid数据库连接池(1).mp4  77.76M
+- |   ├──SpringBoot整合Druid数据库连接池.mp4  143.78M
+- |   ├──SpringBoot整合jsp视图展示技术.mp4  102.50M
+- |   ├──SpringBoot整合SpringMVC.mp4  160.14M
+- |   ├──SpringBoot整合ssm.mp4  284.54M
+- |   ├──SpringBoot整合thymeleaf.mp4  63.76M
+- |   ├──讲解SpringBoot的配置文件.mp4  104.53M
+- |   ├──讲解SpringBoot的项目结构.mp4  73.95M
+- |   ├──讲解thymeleaf语法.mp4  128.63M
+- |   └──介绍SpringBoot.mp4  43.10M
+- ├──27 SpringBoot（一）  
+- |   ├──SpringBoot实现DI.mp4  76.06M
+- |   ├──SpringBoot整合Junit.mp4  84.09M
+- |   ├──SpringBoot整合分页工具.mp4  41.05M
+- |   ├──SpringBoot整合拦截器.mp4  84.76M
+- |   ├──讲解SpringBoot开发者工具包.mp4  30.98M
+- |   ├──讲解SpringBoot实现IOC.mp4  128.69M
+- |   ├──讲解SpringBoot项目打包.mp4  90.03M
+- |   ├──讲解SpringBoot项目异常页面.mp4  96.31M
+- |   └──介绍SpringBoot异常方法异常类.mp4  87.82M
+- ├──28 SpringBoot（二）马老师版本  
+- |   ├──SpringBoot_简介.mp4  140.61M
+- |   ├──SpringBoot_启动原理分析.mp4  393.07M
+- |   ├──SpringBoot_项目搭建方式1.mp4  345.50M
+- |   ├──SpringBoot_项目搭建方式2.mp4  201.18M
+- |   ├──SpringBoot_项目配置A.mp4  188.42M
+- |   ├──SpringBoot_项目配置B.mp4  161.17M
+- |   ├──SpringBoot_项目配置C.mp4  227.88M
+- |   ├──SpringBoot_整合logback.mp4  135.97M
+- |   ├──SpringBoot_整合MyBatis.mp4  412.94M
+- |   └──SpringBoot_整合PageHelper.mp4  482.76M
+- ├──29 SpringBoot（三）  
+- |   ├──FreeMarker指令A.mp4  202.79M
+- |   ├──FreeMarker指令B.mp4  130.62M
+- |   ├──FreeMarker指令C.mp4  250.95M
+- |   ├──FreeMarker指令D.mp4  150.87M
+- |   ├──SpringBoot_Thymeleaf简介.mp4  161.12M
+- |   ├──SpringBoot_整合Druid.mp4  132.83M
+- |   ├──SpringBoot_整合FreeMarker.mp4  199.03M
+- |   ├──SpringBoot_整合JSP.mp4  142.33M
+- |   ├──Thymeleaf_标准变量表达式A.mp4  95.91M
+- |   └──Thymeleaf_标准变量表达式B.mp4  368.77M
+- ├──30 SpringBoot（四）  
+- |   ├──SpringBoot_开发者工具.mp4  88.72M
+- |   ├──SpringBoot_项目打包发布.mp4  85.38M
+- |   ├──SpringBoot_项目打包发布war.mp4  201.14M
+- |   ├──Thymeleaf_标准变量表达式C.mp4  126.03M
+- |   ├──Thymeleaf_标准变量表达式D.mp4  286.80M
+- |   ├──Thymeleaf_标准变量表达式E.mp4  272.86M
+- |   ├──Thymeleaf_标准变量表达式F.mp4  134.22M
+- |   ├──Thymeleaf_内置对象A.mp4  223.09M
+- |   ├──Thymeleaf_内置对象B.mp4  76.14M
+- |   └──模板引擎简单总结.mp4  113.62M
+- ├──31 SpringBoot（五）  
+- |   ├──SpringBoot_Bean管理和拦截器配置.mp4  182.64M
+- |   ├──SpringBoot_Junit支持.mp4  117.47M
+- |   └──SpringBoot_异常处理.mp4  144.81M
+- ├──32 SpringBoot（六）  
+- |   ├──拓展_@Conditional.mp4  181.95M
+- |   ├──拓展_@Configuration.mp4  509.83M
+- |   ├──拓展_@Import.mp4  38.12M
+- |   ├──拓展_@ImportResource(1).mp4  26.25M
+- |   ├──拓展_@ImportResource.mp4  85.99M
+- |   ├──拓展_欢迎页和favicon.mp4  98.87M
+- |   ├──拓展_静态资源前缀和位置.mp4  378.18M
+- |   ├──拓展_拦截器放行静态资源.mp4  257.10M
+- |   ├──拓展_文件上传A.mp4  340.12M
+- |   └──拓展_文件上传B.mp4  69.49M
+- ├──33 SpringBoot（七）  
+- |   ├──拓展_JUnit5参数化测试.mp4  103.10M
+- |   ├──拓展_JUnit5常见注解.mp4  228.14M
+- |   ├──拓展_JUnit5断言机制.mp4  330.62M
+- |   ├──拓展_JUnit5简介.mp4  110.22M
+- |   ├──拓展_Junit5前置条件.mp4  28.47M
+- |   ├──拓展_JUnit5嵌套测试.mp4  110.77M
+- |   ├──拓展_MyBatisPlus分页.mp4  165.19M
+- |   ├──拓展_MyBatisPlus实现CURD.mp4  391.42M
+- |   └──拓展_MyBatisPlus项目搭建.mp4  234.28M
+- ├──34 Linux（一）  
+- |   ├──Linux简介VMWare安装.mp4  16.64M
+- |   ├──Linux系统的安装.mp4  65.98M
+- |   ├──Linux中的常用命令(1).mp4  58.35M
+- |   ├──Linux中的常用命令(2).mp4  50.21M
+- |   ├──Linux中的常用命令.mp4  49.96M
+- |   ├──Linux中的路径.mp4  28.80M
+- |   ├──Linux中的目录结构.mp4  26.23M
+- |   └──VMWare的卸载.mp4  16.16M
+- ├──35 Linux（二）  
+- |   ├──Xftp.mp4  32.31M
+- |   ├──安装JDK.mp4  24.28M
+- |   ├──安装MySQL.mp4  29.97M
+- |   ├──安装Tomcat.mp4  30.06M
+- |   ├──工具XShell.mp4  62.48M
+- |   ├──开启网络链接.mp4  24.04M
+- |   ├──快速与克隆.mp4  23.72M
+- |   ├──设置时间.mp4  21.18M
+- |   ├──文件的压缩与解压缩.mp4  64.06M
+- |   └──修改网络类型.mp4  38.63M
+- ├──36 RPC（一）  
+- |   ├──RPC和HTTP对比.mp4  20.80M
+- |   ├──RPC简介.mp4  23.74M
+- |   ├──返回对象类型.mp4  30.44M
+- |   ├──返回集合类型.mp4  31.35M
+- |   ├──流数据.mp4  15.92M
+- |   ├──实现RPC-get请求操作.mp4  38.93M
+- |   ├──实现RPC-post请求操作.mp4  42.26M
+- |   ├──实现RPC服务器端的编写.mp4  28.08M
+- |   ├──项目架构变化.mp4  24.23M
+- |   └──学习目标.mp4  6.22M
+- ├──37 RPC（二）  
+- |   ├──ajax跨域请求.mp4  32.20M
+- |   ├──JDK的安装.mp4  9.76M
+- |   ├──RMI代码实现.mp4  43.53M
+- |   ├──RMI简介.mp4  22.55M
+- |   ├──zookeeper的安装.mp4  16.37M
+- |   ├──zookeper客户端命令.mp4  32.39M
+- |   ├──接收流数据参数.mp4  49.10M
+- |   ├──内容发布.mp4  26.39M
+- |   ├──使用ajax发送json参数.mp4  38.56M
+- |   └──消息订阅.mp4  20.51M
+- ├──38 RPC（三）  
+- |   ├──手写PRC框架-Consumer.mp4  66.52M
+- |   ├──手写PRC框架-Provider.mp4  36.61M
+- |   ├──手写PRC框架-接口.mp4  7.10M
+- |   └──手写RPC框架-项目架构.mp4  34.89M
+- ├──39 Dubbo（一）  
+- |   ├──Dubbo的Admin界面搭建.mp4  31.32M
+- |   ├──Dubbo负载均衡效果.mp4  56.70M
+- |   ├──Dubbo架构图讲解.mp4  29.74M
+- |   ├──Dubbo简介.mp4  19.12M
+- |   ├──Dubbo支持的协议.mp4  16.35M
+- |   ├──Dubbo支持的注册中心.mp4  9.50M
+- |   ├──项目-consumer编写.mp4  43.43M
+- |   ├──项目-parent工程的编写.mp4  58.06M
+- |   ├──项目-接口&amp_provider编写.mp4  34.21M
+- |   └──项目-运行测试.mp4  15.27M
+- ├──40 Dubbo（二）  
+- |   ├──案例-api子项目的创建.mp4  11.06M
+- |   ├──案例-dept子项目的创建.mp4  25.33M
+- |   ├──案例-Parent项目.mp4  49.78M
+- |   ├──案例-pojo子项目.mp4  17.60M
+- |   ├──案例-provider子项目.mp4  29.02M
+- |   ├──案例-部门显示.mp4  52.44M
+- |   ├──案例-原型-架构-数据库设计.mp4  14.65M
+- |   └──课上案例-mapper子项目的创建.mp4  40.90M
+- ├──41 Dubbo（三）  
+- |   ├──案例-emp子项目.mp4  27.55M
+- |   ├──案例-显示部门列表.mp4  36.50M
+- |   ├──课上案例-部门员工查看.mp4  48.79M
+- |   └──课上案例-员工新增-图片上传.mp4  238.38M
+- ├──42 FastDFS,Nginx  
+- |   ├──FastDFS架构.mp4  43.68M
+- |   ├──FastDFS简介.mp4  38.95M
+- |   ├──Storage.mp4  34.71M
+- |   ├──Tracker.mp4  46.48M
+- |   ├──分布式文件系统概述.mp4  19.11M
+- |   ├──基础搭建.mp4  72.17M
+- |   ├──图片上传代码实现.mp4  88.11M
+- |   ├──文件上传流程.mp4  19.47M
+- |   └──项目架构变化.mp4  17.34M
+- ├──43 FastDFS,Nginx（一）  
+- |   ├──KindEditor文件上传-后端编写.mp4  132.11M
+- |   ├──KindEditor文件上传-前端编写.mp4  62.72M
+- |   ├──nginx安装.mp4  118.15M
+- |   ├──Nginx简介.mp4  16.52M
+- |   ├──图片下载代码实现.mp4  59.23M
+- |   └──正向代理&amp_反向代理.mp4  17.54M
+- ├──44 Redis（一）  
+- |   ├──NOSQL数据库简介.mp4  9.73M
+- |   ├──Redis常用的五大类型.mp4  30.98M
+- |   ├──Redis单机版安装.mp4  50.37M
+- |   ├──Redis单机版的启动.mp4  31.59M
+- |   ├──Redis简介.mp4  13.77M
+- |   ├──常用命令-hash.mp4  13.55M
+- |   ├──常用命令-key.mp4  29.03M
+- |   ├──常用命令-list.mp4  12.95M
+- |   ├──常用命令-set.mp4  10.17M
+- |   └──常用命令-string.mp4  9.46M
+- ├──45 Redis（二）  
+- |   ├──AOF.mp4  19.51M
+- |   ├──Jedis详解.mp4  77.70M
+- |   ├──RDB.mp4  34.22M
+- |   ├──redis集群搭建(上).mp4  109.96M
+- |   ├──redis集群搭建(下).mp4  38.64M
+- |   ├──常用命令-sorted set.mp4  7.51M
+- |   ├──哨兵搭建.mp4  95.67M
+- |   ├──哨兵简介.mp4  26.31M
+- |   ├──主从复制搭建.mp4  71.12M
+- |   └──主从复制介绍.mp4  16.74M
+- ├──46 Redis（三）  
+- |   ├──整合SpringDataRedis1.mp4  39.16M
+- |   └──整合SpringDataRedis2.mp4  30.10M
+- ├──47 Solr  
+- |   ├──dataimport.mp4  83.89M
+- |   ├──documents菜单项讲解.mp4  19.75M
+- |   ├──IK Analyzer配置.mp4  61.06M
+- |   ├──Managed-schema详解.mp4  90.20M
+- |   ├──query菜单项讲解.mp4  42.24M
+- |   ├──Solr单机版安装.mp4  40.96M
+- |   ├──Solr简介.mp4  32.60M
+- |   ├──Solr原理和数据存储注意事项.mp4  69.57M
+- |   ├──可视化界面初识.mp4  12.21M
+- |   └──新建核心.mp4  24.05M
+- ├──48 Solr  (一)  
+- |   ├──SolrJ-查询-高亮.mp4  25.69M
+- |   ├──SolrJ-查询-排序&amp_分页.mp4  36.34M
+- |   ├──SolrJ-查询-条件查询.mp4  34.55M
+- |   ├──SolrJ-删除操作.mp4  13.07M
+- |   ├──SolrJ-新增&amp_修改.mp4  45.33M
+- |   ├──Spring Data Solr-保存(上).mp4  56.51M
+- |   ├──Spring Data Solr-保存(下).mp4  30.55M
+- |   ├──Spring Data Solr-查询.mp4  29.33M
+- |   ├──Spring Data Solr-修改&amp_删除.mp4  12.10M
+- |   └──zookeeper集群搭建.mp4  35.90M
+- ├──49 Solr (二)  
+- |   └──SolrCloud.mp4  78.18M
+- ├──50 RabbitMQ  
+- |   ├──AMQP简介.mp4  15.41M
+- |   ├──Erlang安装.mp4  33.55M
+- |   ├──Rabbitmq安装.mp4  57.77M
+- |   ├──RabbitMQ简介.mp4  13.83M
+- |   ├──RabbitMQ运行原理.mp4  22.08M
+- |   ├──Web管理插件可视化界面说明.mp4  12.00M
+- |   ├──创建Rabiitmq账户.mp4  21.14M
+- |   ├──交换器Direct讲解.mp4  60.20M
+- |   ├──交换器Fanout讲解.mp4  32.98M
+- |   └──交换器Topic讲解.mp4  50.32M
+- ├──51 RabbitMQ (一)  
+- |   ├──课上练习-search项目搭建.mp4  142.79M
+- |   ├──课上练习-同步solr数据.mp4  28.93M
+- |   ├──同步数据-Provider模块的编写.mp4  46.93M
+- |   ├──同步数据-商品新增功能实.mp4  135.53M
+- |   ├──同步数据-使用rabbitmq改写原代码(上).mp4  29.44M
+- |   ├──同步数据-使用rabbitmq改写原代码(下).mp4  77.53M
+- |   └──同步数据-项目搭建.mp4  179.02M
+- ├──52 SpringSecurity  
+- |   ├──Spring Security的简介.mp4  21.98M
+- |   ├──表单相关常用参数配置(上).mp4  27.86M
+- |   ├──表单相关常用参数配置(下).mp4  28.76M
+- |   ├──第一个Spring Security项目.mp4  48.26M
+- |   ├──连接数据库实现自定义登录逻辑.mp4  65.06M
+- |   ├──设置url.mp4  45.48M
+- |   ├──异常403处理方法.mp4  59.36M
+- |   ├──自定义登录逻辑+密码解析器.mp4  55.22M
+- |   ├──自定义登录逻辑_为什么使用密码解析器.mp4  42.89M
+- |   └──自定义登录页面.mp4  77.64M
+- ├──53 SpringSecurity（一）  
+- |   ├──rbac表设计.mp4  16.34M
+- |   ├──Remember Me功能实现.mp4  63.19M
+- |   ├──Spring Security中CSRF详解.mp4  52.73M
+- |   ├──thymeleaf中security属性的使用.mp4  47.28M
+- |   ├──从数据库中查询出角色和权限.mp4  55.58M
+- |   ├──角色和权限限制url访问.mp4  73.95M
+- |   ├──退出登陆功能实现.mp4  82.67M
+- |   ├──注解@PreAuthorize的使用.mp4  23.72M
+- |   ├──注解@Secured的使.mp4  26.86M
+- |   └──自定义授权逻辑.mp4  50.76M
+- ├──54 微服务入门  
+- |   ├──Eureka单机搭建.mp4  777.93M
+- |   ├──Feign参数传递.mp4  191.90M
+- |   ├──Hystrix概念.mp4  67.63M
+- |   ├──Hystrix使用.mp4  138.24M
+- |   ├──Hystrix仪表盘.mp4  206.67M
+- |   ├──Ribbon负载均衡.mp4  124.72M
+- |   ├──Zuul使用.mp4  105.36M
+- |   ├──订单服务搭建和Feign调用.mp4  592.38M
+- |   ├──微服务学习导言.mp4  27.41M
+- |   └──微服务组件介绍.mp4  307.96M
+- ├──55 微服务入门（二）  
+- |   └──总结.mp4  17.83M
+- ├──56 SpringCloud  
+- |   ├──Eureka.mp4  41.47M
+- |   ├──WEB服务层.mp4  47.27M
+- |   ├──从单机到微服务架构演化.mp4  81.34M
+- |   ├──服务治理中心.mp4  52.68M
+- |   ├──流量接入层(2).mp4  37.96M
+- |   ├──流量介入层(1).mp4  50.56M
+- |   ├──前置(1).mp4  19.27M
+- |   ├──前置+回顾.mp4  40.10M
+- |   ├──前置.mp4  20.58M
+- |   └──什么是微服务.mp4  38.26M
+- ├──57 SpringCloud（一）  
+- |   ├──Actuator监控应用.mp4  61.01M
+- |   ├──EurekaClient.mp4  481.24M
+- |   ├──Eureka单独使用.mp4  287.53M
+- |   ├──Eureka服务.mp4  125.69M
+- |   ├──Eureka高可用.mp4  122.22M
+- |   ├──Eureka健康状态.mp4  69.37M
+- |   ├──Eureka元数据.mp4  81.78M
+- |   ├──Ribbon完成负载均衡.mp4  62.01M
+- |   ├──安全配置.mp4  77.25M
+- |   └──自我保护机制.mp4  55.38M
+- ├──58 SpringCloud  （二）  
+- |   ├──Feign(上).mp4  185.89M
+- |   ├──Feign(上、下).mp4  96.29M
+- |   ├──feign.mp4  147.03M
+- |   ├──Restful风格api 接口规范.mp4  425.27M
+- |   ├──restTemplate.mp4  173.63M
+- |   ├──Ribbon 代码部分.mp4  108.48M
+- |   ├──Ribbon概念.mp4  56.86M
+- |   ├──前置(1).mp4  18.67M
+- |   ├──前置.mp4  186.44M
+- |   └──自定义负载均衡算法.mp4  256.02M
+- ├──59 SpringCloud  (三)  
+- |   ├──Hysrix整合RestTemplate.mp4  77.74M
+- |   ├──Hystrix降级.mp4  55.37M
+- |   ├──Hystrix熔断与使用.mp4  83.66M
+- |   ├──Hystrix限流与隔离.mp4  54.57M
+- |   ├──Hystrix整合Feign.mp4  139.84M
+- |   ├──链路追踪.mp4  97.44M
+- |   ├──网关概念.mp4  136.09M
+- |   ├──网关具体应用.mp4  87.08M
+- |   ├──信号量隔离与线程隔离.mp4  94.77M
+- |   └──信号量隔离与线程隔离代码实现.mp4  87.83M
+- ├──60 SpringCloud  （四）  
+- |   ├──admin.mp4  87.01M
+- |   ├──发邮件通知.mp4  103.65M
+- |   ├──配置中心搭建.mp4  104.51M
+- |   ├──配置中心概念.mp4  57.42M
+- |   ├──前置.mp4  40.83M
+- |   ├──刷新配置.mp4  138.28M
+- |   └──总结.mp4  2.78M
+- ├──61 微服务会话管理  
+- |   ├──CSRF XsS攻击安全与防御.mp4  40.00M
+- |   ├──openId.mp4  29.92M
+- |   ├──Shiro.mp4  70.26M
+- |   ├──SpringSecurity.mp4  65.29M
+- |   ├──SpringSecurityAPi详解.mp4  427.83M
+- |   ├──会话管理.mp4  86.87M
+- |   ├──密码存储安全问题.mp4  485.90M
+- |   ├──模拟登陆+解决CSRF方案.mp4  736.49M
+- |   ├──前置(1).mp4  90.50M
+- |   └──前置.mp4  35.39M
+- ├──62 微服务会话管理（一）  
+- |   ├──JDBC用户内存.mp4  127.61M
+- |   ├──remember me.mp4  111.94M
+- |   ├──防火墙.mp4  409.21M
+- |   ├──忽略静态请求.mp4  55.09M
+- |   ├──前置.mp4  71.47M
+- |   ├──权限控制与继承 (1).mp4  322.41M
+- |   ├──权限控制与继承.mp4  485.67M
+- |   ├──如何用mybatis、jps查询用户.mp4  90.40M
+- |   ├──注销登陆与控制器.mp4  162.65M
+- |   └──自定义用户权限.mp4  105.95M
+- ├──63 微服务会话管理（二）  
+- |   ├──Jwt Token在浏览器如何防止重放攻击.mp4  96.38M
+- |   ├──Jwt替换.mp4  55.19M
+- |   ├──oAuth2.0.mp4  37.44M
+- |   ├──session共享.mp4  82.25M
+- |   ├──课上问题回答环节.mp4  54.33M
+- |   ├──前置(1).mp4  28.34M
+- |   ├──前置.mp4  68.31M
+- |   ├──如何防止密文外泄.mp4  119.56M
+- |   ├──图形验证码.mp4  345.66M
+- |   └──无状态会话.mp4  42.63M
+- ├──64 微服务会话管理（三）  
+- |   └──oAuth2.0代码.mp4  114.92M
+- ├──65 微服务调用OpenFeign  
+- |   ├──CA机构插入加密.mp4  88.78M
+- |   ├──Https真的安全吗？.mp4  182.95M
+- |   ├──SSL.mp4  302.80M
+- |   ├──加密详解.mp4  66.00M
+- |   └──前置.mp4  113.81M
+- ├──66 拓展知识  
+- |   ├──NGinx配置Https.mp4  129.82M
+- |   ├──OpenSSl.mp4  179.13M
+- |   ├──前置.mp4  87.68M
+- |   ├──线上服务器免费证书申请与认证.mp4  656.11M
+- |   ├──自建CA证书.mp4  106.63M
+- |   └──自建凭证书受系统信任.mp4  267.97M
+- ├──67 项目：网约车  
+- |   ├──eureka生产优化(1).mp4  1.21G
+- |   ├──eureka生产优化.mp4  1.40G
+- |   ├──乘客登录-QPS提升（提升并发数）.mp4  806.26M
+- |   ├──乘客端时序图-设计.mp4  1.03G
+- |   ├──服务拆分-接口设计.mp4  563.66M
+- |   ├──工程设计-eureka生产优化.mp4  202.83M
+- |   ├──计价时序图-设计.mp4  1.07G
+- |   ├──派单逻辑-时序图-设计.mp4  1.12G
+- |   ├──网约车注册中心总结.mp4  1.24G
+- |   └──项目概述-需求分析.mp4  131.81M
+- ├──68 项目：网约车（一）  
+- |   ├──zuul 过滤器-解决实际问题思路分析.mp4  912.29M
+- |   ├──传统项目向微服务改造的问题.mp4  915.59M
+- |   ├──订单状态流转.mp4  964.33M
+- |   ├──灰度发布-ribbon灰度.mp4  805.70M
+- |   ├──灰度发布-网关灰度.mp4  735.45M
+- |   ├──网关 经典动态路由问题解决的2种方案.mp4  1.13G
+- |   ├──网关动态路由-解决方案.mp4  1.02G
+- |   ├──网关实战小技巧.mp4  269.10M
+- |   ├──网关限流-服务限流-分布式事务.mp4  501.94M
+- |   └──支付流程-时序图-灰度场景.mp4  192.80M
+- ├──69 项目：网约车（二）  
+- |   ├──LCN原理-实战.mp4  749.15M
+- |   ├──Seata AT模式.mp4  862.29M
+- |   ├──Seata 实战.mp4  909.31M
+- |   ├──Seata-at-tcc-空回滚-幂等-悬挂.mp4  623.90M
+- |   ├──TCC-mysql-redis-混合实战.mp4  1.01G
+- |   ├──TCC原理-实战.mp4  900.66M
+- |   ├──可靠消息服务-最大努力通知-事务消息.mp4  513.91M
+- |   ├──提交协议.mp4  721.10M
+- |   ├──网约车项目.mp4  833.86M
+- |   └──消息队列-定时任务-本地事件表.mp4  790.51M
+- └──70 项目：网约车（三）  
+- |   ├──RocketMQ 事务消息方案实战.mp4  860.44M
+- |   ├──网约车项目(1).mp4  709.36M
+- |   ├──网约车项目(2).mp4  681.76M
+- |   ├──网约车项目(3).mp4  449.17M
+- |   └──网约车项目.mp4  206.32M
+- 
